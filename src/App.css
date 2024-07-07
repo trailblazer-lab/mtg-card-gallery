@@ -1,0 +1,50 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/originals/79/44/9d/79449de3ab2d49756d54be57bdc8cede.jpg');
+  background-size: cover; /* Optional: Scale image to cover the entire background */
+  background-repeat: no-repeat; /* Optional: Prevent image tiling */
+  color: white; /* Set font color to white */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-box {
+  height: 40px; /* Adjust height as desired */
+  width: 100%; /* Maintain full width */
+}
+
+.search-box input {
+  height: 40px; /* Match container height */
+}
+
+
+/* Card list styles */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  /* Adjust height as needed */
+  height: 200px;
+  object-fit: cover; /* Optional: Scale image to fit card */
+}
